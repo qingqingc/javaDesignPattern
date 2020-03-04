@@ -1,16 +1,17 @@
 package com.profile.designpattern.singleton;
 
-public class Singleton {
+//懒汉单例模式
+public class LazySingleton {
 	private static int count = 0;
-	private static Singleton singleton;
+	private static volatile LazySingleton singleton = null;
 	
-	private Singleton() {
+	private LazySingleton() {
 		System.out.println("init a single java pattern class.");
 	}
 	
-	public synchronized static Singleton getSingletonInstance() {
+	public synchronized static LazySingleton getSingletonInstance() {
 		if (singleton == null) {// I think this place will lead to multithread problem.
-			return new Singleton();
+			return new LazySingleton();
 		}
 		
 		return singleton;
