@@ -9,7 +9,7 @@ public class Singleton {
 	}
 	
 	public synchronized static Singleton getSingletonInstance() {
-		if (singleton == null) {// I think this place will cause multithread problem.
+		if (singleton == null) {// I think this place will lead to multithread problem.
 			return new Singleton();
 		}
 		
