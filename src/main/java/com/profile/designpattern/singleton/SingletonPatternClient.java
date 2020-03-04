@@ -2,7 +2,7 @@ package com.profile.designpattern.singleton;
 
 import com.profile.designpattern.singleton.LazySingleton;
 
-public class SingletonPattern {
+public class SingletonPatternClient {
 
 	public static void main(String[] args) {
 		//lazy singleton.
