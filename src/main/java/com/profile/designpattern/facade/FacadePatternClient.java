@@ -7,5 +7,4 @@ public class FacadePatternClient {
 		Facade f =new Facade();
 		f.start();
 	}
-
 }
