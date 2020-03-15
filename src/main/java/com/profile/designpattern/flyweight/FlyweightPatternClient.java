@@ -2,6 +2,9 @@ package com.profile.designpattern.flyweight;
 
 /*
  * 享元模式
+ * more information can reference to 
+ * https://www.cnblogs.com/pony1223/p/7608955.html
+ * 
  */
 public class FlyweightPatternClient {
 
