@@ -1,5 +1,10 @@
 package com.profile.designpattern.memento;
 
+/**
+ * 
+ * 备忘录设计模式
+ *
+ */
 public class MementoPatternClient {
 
 	public static void main(String[] args) {
