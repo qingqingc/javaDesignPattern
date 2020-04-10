@@ -4,7 +4,7 @@ public class ConcreteElementA implements Element {
 
 	public void accept(Visitor v) {
 		// TODO Auto-generated method stub
-		v.visitor(this);;
+		v.visitor(this);
 	}
 
 	public void operateA() {
